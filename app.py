@@ -4,7 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Hello"
+    a=10
+    b=20
+    return a+b 
     '''a=10
     b=20
     print ("The sum is:",a+b)
