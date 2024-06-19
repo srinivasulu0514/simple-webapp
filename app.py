@@ -4,8 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def int main():
-    a=10
-    b=20
     return "abc" 
     '''a=10
     b=20
