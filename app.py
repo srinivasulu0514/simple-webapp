@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def int main():
+def main():
     return "abc" 
     '''a=10
     b=20
